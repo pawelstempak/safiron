@@ -18,8 +18,8 @@ module.exports = {
                 exo: ['Exo'],
             },
             colors: {
-                primary: '#145F75',
-                secondary: '#04A81F',
+                primary: '#001B2D',
+                secondary: '#69C43C',
                 lightSecondary: '#68ff2c',
                 warning: '#eab308',
                 alert: '#dc2626',

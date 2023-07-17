@@ -23,7 +23,8 @@ use App\Http\Controllers\ContactController;
 
 Route::get('/', function () {
     return view('frontend.home');
-});
+})->name('home');
+
 Route::get('/log', [LogController::class, 'show'])->name('showlogs');
 Route::get('/log/{id}', [LogController::class, 'showitem'])->name('showitem');
 

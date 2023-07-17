@@ -1,11 +1,11 @@
 <!-- ====== Footer Section Start -->
-<footer class="relative z-10 bg-dark pt-20 pb-10 lg:pt-[120px] lg:pb-20">
+<footer class="relative z-10 bg-primary pt-20 pb-10 lg:pt-[120px] lg:pb-20">
   <div class="mx-auto sm:container xs:px-10">
     <div class="-mx-4 flex flex-wrap">
       <div class="w-full px-4 sm:w-2/3 lg:w-3/12">
         <div class="mb-5 w-full">
           <a href="/" class="mb-4 inline-block max-w-[240px]">
-            <img src="/images/logo-white.png" alt="logo" class="max-w-full" />
+            <p class="text-4xl text-white">TIMMSPAWTECH</p> {{-- <img src="/images/logo-white.png" alt="logo" class="max-w-full" /> --}}
           </a>
           <p class="text-sand mb-7 text-base max-w-[300px]">
             Pytania lub wątpliwości? Zadzwoń!
@@ -18,7 +18,7 @@
                 <path d="M0.802807 6.05619C0.869358 7.52032 2.16711 8.11928 2.83263 8.11928H5.16193C5.19521 8.11928 5.19521 8.11928 5.19521 8.11928C6.19348 8.05273 7.19175 7.38722 7.19175 6.05619V5.25757C8.28985 5.25757 10.8188 5.25757 11.9169 5.25757V6.05619C11.9169 7.38722 12.9152 8.05273 13.9135 8.11928H13.9467H16.2428C16.9083 8.11928 18.206 7.52032 18.2726 6.05619C18.2726 5.95636 18.2726 5.59033 18.2726 5.25757C18.2726 4.99136 18.2726 4.75843 18.2726 4.72516C18.2726 4.69188 18.2726 4.6586 18.2726 4.6586C18.1727 3.72688 17.84 2.96154 17.2743 2.36258L17.241 2.3293C16.4091 1.56396 15.4109 1.13138 14.6455 0.865169C12.416 0 9.62088 0 9.48778 0C7.52451 0.0332757 6.26003 0.199654 4.36331 0.865169C3.63125 1.0981 2.63297 1.53068 1.80108 2.29603L1.7678 2.3293C1.20212 2.92827 0.869359 3.69361 0.769531 4.62533C0.769531 4.6586 0.769531 4.69188 0.769531 4.69188C0.769531 4.75843 0.769531 4.95809 0.769531 5.22429C0.802807 5.52377 0.802807 5.92308 0.802807 6.05619ZM2.5997 3.12792C3.26521 2.52896 4.09711 2.16292 4.7959 1.89672C6.52624 1.26448 7.65761 1.13138 9.55433 1.0981C9.68743 1.0981 12.2829 1.13138 14.2795 1.89672C14.9783 2.16292 15.8102 2.49568 16.4757 3.12792C16.8417 3.52723 17.0746 4.05964 17.1412 4.69188C17.1412 4.79171 17.1412 4.95809 17.1412 5.22429C17.1412 5.55705 17.1412 5.92308 17.1412 6.02291C17.1079 6.78825 16.3759 6.95463 16.276 6.95463H13.98C13.6472 6.92135 13.1148 6.78825 13.1148 6.05619V4.69188C13.1148 4.42567 12.9485 4.22602 12.7155 4.12619C12.5159 4.05964 6.69262 4.05964 6.49296 4.12619C6.26003 4.19274 6.09365 4.42567 6.09365 4.69188V6.05619C6.09365 6.78825 5.56124 6.92135 5.22848 6.95463H2.93246C2.83263 6.95463 2.10056 6.78825 2.06729 6.02291C2.06729 5.92308 2.06729 5.55705 2.06729 5.22429C2.06729 4.95809 2.06729 4.82498 2.06729 4.72516C2.00073 4.05964 2.23366 3.52723 2.5997 3.12792Z" />
               </svg>
             </span>
-            <a href="tel:+48 512 280 900" class="border bg-secondary hover:bg-secondary/75 border-secondary hover:border-sand rounded text-white py-1 px-3">+48 512 280 900</a>
+            <a href="tel:+48 794 375 965" class="border bg-secondary hover:text-white hover:bg-secondary/75 border-secondary hover:border-sand rounded text-primary py-1 px-3">+48 794 375 965</a>
           </p>
         </div>
       </div>
@@ -28,22 +28,17 @@
           <ul>
             <li>
               <a href="search" class="text-sand hover:text-lightSecondary mb-2 inline-block text-base leading-loose">
-                W sprzedaży
+                Oferta
               </a>
             </li>
             <li>
               <a href="log" class="text-sand hover:text-lightSecondary mb-2 inline-block text-base leading-loose">
-                Dziennik budowy
+                Galeria
               </a>
             </li>
             <li>
-              <a href="investment" class="text-sand hover:text-lightSecondary mb-2 inline-block text-base leading-loose">
-                Inwestycja
-              </a>
-            </li>
-            <li>
-              <a href="location" class="text-sand hover:text-lightSecondary mb-2 inline-block text-base leading-loose">
-                Lokalizacja
+              <a href="contact" class="text-sand hover:text-lightSecondary mb-2 inline-block text-base leading-loose">
+                Kontakt
               </a>
             </li>
           </ul>
@@ -68,54 +63,9 @@
                 Polityka cookies
               </a>
             </li>
-            <li>
-              <a href="cantact" class="text-sand hover:text-lightSecondary mb-2 inline-block text-base leading-loose">
-                Kontakt
-              </a>
-            </li>
           </ul>
         </div>
       </div>
-      {{-- <div class="w-full px-4 sm:w-1/2 lg:w-2/12">
-        <div class="mb-10 w-full">
-          
-          <h4 class="text-secondary mb-9 text-lg font-semibold">Quick Links</h4>
-          <ul>
-            <li>
-              <a
-                href="javascript:void(0)"
-                class="text-sand hover:text-sand/50 mb-2 inline-block text-base leading-loose"
-              >
-                Premium Support
-              </a>
-            </li>
-            <li>
-              <a
-                href="javascript:void(0)"
-                class="text-sand hover:text-sand/50 mb-2 inline-block text-base leading-loose"
-              >
-                Our Services
-              </a>
-            </li>
-            <li>
-              <a
-                href="javascript:void(0)"
-                class="text-sand hover:text-sand/50 mb-2 inline-block text-base leading-loose"
-              >
-                Know Our Team
-              </a>
-            </li>
-            <li>
-              <a
-                href="javascript:void(0)"
-                class="text-sand hover:text-sand/50 mb-2 inline-block text-base leading-loose"
-              >
-                Download App
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>--}}
       <div class="w-full px-4 sm:w-1/2 lg:w-3/12">
         <div class="mb-10 w-full">
           <h4 class="text-secondary mb-9 text-lg font-semibold">Obserwuj nas</h4>
@@ -141,7 +91,7 @@
               </svg>
             </a>
           </div>
-          <p class="text-sand/75 text-base">&copy; Osiedle Nowe Przedmieście</p>
+          <p class="text-sand/75 text-base">&copy; TIMMSPAWTECH.PL</p>
         </div>
       </div>
     </div>
