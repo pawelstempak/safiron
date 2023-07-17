@@ -1,8 +1,8 @@
 <!-- ====== Footer Section Start -->
 <footer class="relative z-10 bg-primary pt-20 pb-10 lg:pt-[120px] lg:pb-20">
   <div class="mx-auto sm:container xs:px-10">
-    <div class="-mx-4 flex flex-wrap">
-      <div class="w-full px-4 sm:w-2/3 lg:w-3/12">
+    <div class="sm:flex sm:justify-between">
+      <div>
         <div class="mb-5 w-full">
           <a href="/" class="mb-4 inline-block max-w-[240px]">
             <p class="text-4xl text-white">TIMMSPAWTECH</p> {{-- <img src="/images/logo-white.png" alt="logo" class="max-w-full" /> --}}
@@ -22,51 +22,7 @@
           </p>
         </div>
       </div>
-      <div class="w-full px-4 sm:w-1/2 lg:w-3/12">
-        <div class="mb-10 w-full">
-          <h4 class="text-secondary mb-9 text-lg font-semibold">Menu</h4>
-          <ul>
-            <li>
-              <a href="search" class="text-sand hover:text-lightSecondary mb-2 inline-block text-base leading-loose">
-                Oferta
-              </a>
-            </li>
-            <li>
-              <a href="log" class="text-sand hover:text-lightSecondary mb-2 inline-block text-base leading-loose">
-                Galeria
-              </a>
-            </li>
-            <li>
-              <a href="contact" class="text-sand hover:text-lightSecondary mb-2 inline-block text-base leading-loose">
-                Kontakt
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="w-full px-4 sm:w-1/2 lg:w-3/12">
-        <div class="mb-10 w-full">
-          <h4 class="text-secondary mb-9 text-lg font-semibold">Informacje</h4>
-          <ul>
-            <li>
-              <a href="" class="text-sand hover:text-lightSecondary mb-2 inline-block text-base leading-loose">
-                Polityka prywatności
-              </a>
-            </li>
-            <li>
-              <a href="gdpr" class="text-sand hover:text-lightSecondary mb-2 inline-block text-base leading-loose">
-                RODO
-              </a>
-            </li>
-            <li>
-              <a href="cookies" class="text-sand hover:text-lightSecondary mb-2 inline-block text-base leading-loose">
-                Polityka cookies
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="w-full px-4 sm:w-1/2 lg:w-3/12">
+      <div>
         <div class="mb-10 w-full">
           <h4 class="text-secondary mb-9 text-lg font-semibold">Obserwuj nas</h4>
           <div class="mb-6 flex items-center">
@@ -102,7 +58,7 @@
         <path d="M-64 140.5C-64 62.904 -1.096 1.90666e-05 76.5 1.22829e-05C154.096 5.49924e-06 217 62.904 217 140.5C217 218.096 154.096 281 76.5 281C-1.09598 281 -64 218.096 -64 140.5Z" fill="url(#paint0_linear_1179_5)" />
         <defs>
           <linearGradient id="paint0_linear_1179_5" x1="76.5" y1="281" x2="76.5" y2="1.22829e-05" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#3056D3" stop-opacity="0.08" />
+            <stop stop-color="#3CD330" stop-opacity="0.08" />
             <stop offset="1" stop-color="#C4C4C4" stop-opacity="0" />
           </linearGradient>
         </defs>
@@ -113,7 +69,7 @@
         <path d="M37.5 -1.63918e-06C58.2107 -2.54447e-06 75 16.7893 75 37.5C75 58.2107 58.2107 75 37.5 75C16.7893 75 -7.33885e-07 58.2107 -1.63918e-06 37.5C-2.54447e-06 16.7893 16.7893 -7.33885e-07 37.5 -1.63918e-06Z" fill="url(#paint0_linear_1179_4)" />
         <defs>
           <linearGradient id="paint0_linear_1179_4" x1="-1.63917e-06" y1="37.5" x2="75" y2="37.5" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#13C296" stop-opacity="0.31" />
+            <stop stop-color="#3CD330" stop-opacity="0.31" />
             <stop offset="1" stop-color="#C4C4C4" stop-opacity="0" />
           </linearGradient>
         </defs>

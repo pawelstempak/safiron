@@ -11,14 +11,14 @@ function counting(){
         isCounting: false,
         startValue: 0, 
         apartmentsValue: null,
-        endApartmentsValue: 59,
+        endApartmentsValue: 12,
         fromSquareFootageValue: null,
-        endFromSquareFootageValue: 29,
+        endFromSquareFootageValue: 60,
         toSquareFootageValue: null,
         endToSquareFootageValue: 99,
         parkingSpacesValue: null,
-        endParkingSpacesValue: 63,                    
-        delay: 10,
+        endParkingSpacesValue: 100,                    
+        delay: 30,
         step: 1,
         toggleCounting() {
             if(!this.started){

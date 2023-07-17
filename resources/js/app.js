@@ -1,7 +1,7 @@
 import './bootstrap';
 
-import { Carousel, Stepper, Collapse, Modal, Ripple, Input, initTE } from "tw-elements";
-initTE({ Carousel, Stepper, Collapse, Modal, Ripple, Input });
+import { Dropdown, Carousel, Stepper, Collapse, Modal, Ripple, Input, initTE } from "tw-elements";
+initTE({ Dropdown, Carousel, Stepper, Collapse, Modal, Ripple, Input });
 
 import Alpine from 'alpinejs';
 import focus from '@alpinejs/focus';
