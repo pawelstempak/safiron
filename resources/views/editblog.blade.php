@@ -42,7 +42,7 @@
                             <div class="pb-5 grid grid-cols-4 gap-4">
                                 @foreach($blogitems as $item)
                                 <div class="">
-                                    <img src="{{Storage::url('blog/'.$item->filename)}}" class="rounded-xl">
+                                    <a href="/blog/edit/{{ $blog->id }}/delete/{{$item->id}}"><img src="{{Storage::url('blog/'.$item->filename)}}" class="rounded-xl hover:opacity-50"></a>
                                 </div>
                                 @endforeach
                             </div>                    

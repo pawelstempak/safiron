@@ -1,3 +1,1 @@
-<a href="/">
-    <img src="/images/logotype.png">
-</a>
+<p class="text-4xl">TIMMSPAWTECH</p>

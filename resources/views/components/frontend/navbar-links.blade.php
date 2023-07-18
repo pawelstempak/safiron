@@ -12,7 +12,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="/log" class="{{ request()->is('log') ? 'bg-secondary text-white' : 'bg-transparent'}} hover:bg-secondary/75 hover:text-white text-primary transition ease-in-out flex py-3 px-3 rounded xl:py-2 text-xl font-medium xl:inline-flex mx-1">
+                      <a href="/log" class="{{ (request()->is('log') or request()->route()->named('showitem')) ? 'bg-secondary text-white' : 'bg-transparent'}} hover:bg-secondary/75 hover:text-white text-primary transition ease-in-out flex py-3 px-3 rounded xl:py-2 text-xl font-medium xl:inline-flex mx-1">
                         &nbsp;GALERIA&nbsp;
                       </a>
                     </li>

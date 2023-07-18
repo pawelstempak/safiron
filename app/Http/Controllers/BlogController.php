@@ -38,6 +38,17 @@ class BlogController extends Controller
         return redirect('blog');
     }
 
+    public function deleteImage(int $id, int $imageid): RedirectResponse
+    {
+        $item = BlogsItems::find($imageid);
+        
+        $image = new ImagePreprocessingModel();
+        $image->deleteImageFile('blog',$item['filename']);
+        $item->delete();
+
+        return redirect('/blog/edit/'.$id);
+    }    
+
     public function edit(int $id): object
     {
         $blog = Blogs::find($id);
