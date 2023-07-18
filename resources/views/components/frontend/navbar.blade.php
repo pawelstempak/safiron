@@ -1,6 +1,6 @@
       <!-- ====== Navbar Section Start -->
       <header class="flex w-full items-center">
-        <div class="mx-auto bg-white w-full">
+        <div class="mx-auto bg-white w-full shadow-xl">
           <div class="bg-primary text-white text-center p-2 shadow-xl hidden sm:block">
             Metaloplastyka, bramy, ogrodzenia, okucia kmetalowe, elementy ozdobne z metalu<a href="tel:+48 794 375 965" class="ml-5 border bg-secondary hover:text-white hover:bg-secondary/75 border-secondary hover:border-white rounded text-primary py-1 px-3">+48 794 375 965</a>
           </div>

@@ -1,5 +1,5 @@
 <!-- ====== Footer Section Start -->
-<footer class="relative z-10 bg-primary pt-20 pb-10 lg:pt-[120px] lg:pb-20">
+<footer class="relative z-10 bg-primary pt-10 pb-10 lg:pt-[60px] lg:pb-20">
   <div class="mx-auto sm:container xs:px-10">
     <div class="sm:flex sm:justify-between">
       <div>
@@ -8,7 +8,9 @@
             <p class="text-4xl text-white">TIMMSPAWTECH</p> {{-- <img src="/images/logo-white.png" alt="logo" class="max-w-full" /> --}}
           </a>
           <p class="text-sand mb-7 text-base max-w-[300px]">
-            Pytania lub wątpliwości? Zadzwoń!
+            Masz pytania do naszych usług?<br />
+            Chcesz zapytać o terminy?<br />
+            Zadzwoń!
           </p>
           <p class="text-dark flex items-center text-sm font-medium">
             <span class="text-white mr-3">

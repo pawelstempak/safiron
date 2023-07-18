@@ -54,16 +54,7 @@ Route::middleware([
     'verified'
 ])->group(function () {
 
-    Route::get('/dashboard', [ApartmentsController::class, 'dashboard'])->name('dashboard');
-
-    Route::get('/buildings', [BuildingsController::class, 'show'])->name('buildings');
-    Route::get('/buildings/delete/{id}', [BuildingsController::class, 'delete']);
-    Route::get('/buildings/edit/{id}', [BuildingsController::class, 'edit']);
-    Route::post('/buildings/edit/{id}', [BuildingsController::class, 'save']);
-    Route::get('/buildings/add', function () {
-        return view('add-buildings');
-    });
-    Route::post('/buildings/add', [BuildingsController::class, 'save_add_form']);
+    Route::get('/offer', [ApartmentsController::class, 'dashboard'])->name('offer');
 
     Route::get('/blog', [BlogController::class, 'show'])->name('blog');
     Route::get('/blog/add', function () {
@@ -73,6 +64,15 @@ Route::middleware([
     Route::get('/blog/edit/{id}', [BlogController::class, 'edit']);
     Route::post('/blog/edit/{id}', [BlogController::class, 'update']);
     Route::get('/blog/delete/{id}', [BlogController::class, 'delete']);
+
+    Route::get('/buildings', [BuildingsController::class, 'show'])->name('buildings');
+    Route::get('/buildings/delete/{id}', [BuildingsController::class, 'delete']);
+    Route::get('/buildings/edit/{id}', [BuildingsController::class, 'edit']);
+    Route::post('/buildings/edit/{id}', [BuildingsController::class, 'save']);
+    Route::get('/buildings/add', function () {
+        return view('add-buildings');
+    });
+    Route::post('/buildings/add', [BuildingsController::class, 'save_add_form']);
 
     Route::get('/status', [StatusController::class, 'show'])->name('status');
     Route::get('/status/delete/{id}', [StatusController::class, 'delete']);
