@@ -10,21 +10,21 @@
     <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
         <!--First item-->
         <div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-active data-te-carousel-item style="backface-visibility: hidden">
-            <img src="images/navbar1.jpg" class="block w-full" alt="..." />
+            <img src="images/navbar2.jpg" class="block w-full" alt="..." />
             <div class="absolute inset-x-[15%] bottom-16 hidden py-5 text-left text-white md:block">
-                <h5 class="bg-secondary/75 px-5 py-3 text-white text-4xl font-mono xl:w-1/2 2xl:w-2/3">Elegancja, styl i nowoczesność</h5>
+                <h5 class="bg-secondary/75 px-5 py-3 text-white text-4xl font-mono xl:w-1/2 2xl:w-2/3">Bezpieczeństwo i wygoda</h5>
                 <p class="text-white text-2xl px-5 py-3 bg-primary/75 mt-10 font-mono xl:w-1/2 2xl:w-2/3">
-                    Nowoczesnne schody w twoim domu!
+                    Balustrady schodowe, balkonowe czy tarasowe w nowoczesnym stylu.
                 </p>
             </div>
         </div>
         <!--Second item-->
         <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item style="backface-visibility: hidden">
-            <img src="images/navbar2.jpg" class="block w-full" alt="..." />
+            <img src="images/navbar1.jpg" class="block w-full" alt="..." />
             <div class="absolute inset-x-[15%] bottom-16 hidden py-5 text-left text-white md:block">
-                <h5 class="bg-primary/75 px-5 py-3 text-white text-4xl font-mono xl:w-1/2 2xl:w-2/3">Bezpieczeństwo i wygoda</h5>
+                <h5 class="bg-primary/75 px-5 py-3 text-white text-4xl font-mono xl:w-1/2 2xl:w-2/3">Elegancja, styl i nowoczesność</h5>
                 <p class="text-white text-2xl px-5 py-3 bg-dark/75 mt-10 font-mono xl:w-1/2 2xl:w-2/3">
-                    Balustrady schodowe, balkonowe czy tarasowe w nowoczesnym stylu.
+                    Nowoczesnne schody w twoim domu!
                 </p>
             </div>
         </div>
@@ -32,7 +32,7 @@
         <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item style="backface-visibility: hidden">
             <img src="images/navbar3.jpg" class="block w-full" alt="..." />
             <div class="absolute inset-x-[15%] bottom-16 hidden py-5 text-left text-white md:block">
-                <h5 class="bg-[#4d2403]/75 px-5 py-3 text-white text-4xl font-mono xl:w-1/2 2xl:w-2/3">Eleganckie i konstrukcje mebli</h5>
+                <h5 class="bg-[#4d2403]/75 px-5 py-3 text-white text-4xl font-mono xl:w-1/2 2xl:w-2/3">Eleganckie i twałe konstrukcje mebli</h5>
                 <p class="text-white text-2xl px-5 py-3 bg-[#683d1a]/75 mt-10 font-mono xl:w-1/2 2xl:w-2/3">
                     Ponadczasowe połączenie drewna z metalem
                 </p>

@@ -13,8 +13,7 @@
     <div class="w-full">
         <h4 class="text-dark mb-1 text-xl font-bold">Nasza siedziba</h4>
         <p class="text-slate-600 text-base">
-            37-700 Przemyśl<br>
-            ul. Mickiewicza 121
+            37-700 Przemyśl
         </p>
     </div>
 </div>

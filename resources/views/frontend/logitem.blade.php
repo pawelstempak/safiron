@@ -1,11 +1,11 @@
 <x-guest-layout>
-    <section class="bg-sand/50">
+    <section class="bg-slate-200">
         <x-frontend.navbar />
 
         <section class="pt-10 pb-10 lg:pt-20 lg:pb-20">
             <div class="md:container mx-auto">
-            <h1 class="py-5 text-white block text-6xl font-exo">DZIENNIK BUDOWY</h1>     
-                <p class="py-5 px-10 mb-2 block text-2xl text-sand_dark mx-auto">#{{$logitem->name}}</p>           
+            <h1 class="py-3 text-primary block text-6xl font-exo">Galeria</h1>     
+                <p class="py-3 px-10 mb-2 block text-3xl text-secondary mx-auto">#{{$logitem->name}}</p>           
                 <div class="-mx-4 flex flex-wrap">                    
                     @foreach($logitemlist as $log)
                     <div class="w-full px-4 md:w-1/2 lg:w-1/3" x-data="{modalImg{{$log->id}}: false}">
