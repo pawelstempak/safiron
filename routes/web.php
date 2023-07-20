@@ -2,11 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\OfferController;
-use App\Http\Controllers\BuildingsController;
-use App\Http\Controllers\OffertypesController;
-use App\Http\Controllers\ApartmentsController;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\BlogController;
-use App\Http\Controllers\SearchController;
 use App\Http\Controllers\LogController;
 use App\Http\Controllers\ContactController;
 
@@ -21,9 +18,7 @@ use App\Http\Controllers\ContactController;
 |
 */
 
-Route::get('/', function () {
-    return view('frontend.home');
-})->name('home');
+Route::get('/', [HomeController::class, 'show'])->name('home');
 
 Route::get('/log', [LogController::class, 'show'])->name('showlogs');
 Route::get('/log/{id}', [LogController::class, 'showitem'])->name('showitem');
