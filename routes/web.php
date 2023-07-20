@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\StatusController;
+use App\Http\Controllers\OfferController;
 use App\Http\Controllers\BuildingsController;
 use App\Http\Controllers\OffertypesController;
 use App\Http\Controllers\ApartmentsController;
@@ -65,6 +65,9 @@ Route::middleware([
     Route::post('/blog/edit/{id}', [BlogController::class, 'update']);
     Route::get('/blog/delete/{id}', [BlogController::class, 'delete']);
     Route::get('/blog/edit/{id}/delete/{imageid}', [BlogController::class, 'deleteImage']);
+
+    Route::get('/offer', [OfferController::class, 'show'])->name('offer');
+    Route::post('/offer', [OfferController::class, 'store'])->name('store_offer');
 
     // Route::get('/buildings', [BuildingsController::class, 'show'])->name('buildings');
     // Route::get('/buildings/delete/{id}', [BuildingsController::class, 'delete']);

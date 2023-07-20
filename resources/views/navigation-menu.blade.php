@@ -11,11 +11,11 @@
                 </div>
 
                 <!-- Navigation Links -->
-                {{-- <div class="ml-8 rounded-md inline-flex items-center">
-                    <x-nav-link href="{{ route('offers') }}" :active="request()->routeIs('offers')">
+                <div class="ml-8 rounded-md inline-flex items-center">
+                    <x-nav-link href="{{ route('offer') }}" :active="request()->routeIs('offer')">
                         Oferta
                     </x-nav-link>
-                </div>--}}
+                </div>
 
                 <div class="ml-8 rounded-md inline-flex items-center">
                     <x-nav-link href="{{ route('blog') }}" :active="request()->routeIs('blog')">
