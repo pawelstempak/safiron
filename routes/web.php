@@ -64,6 +64,9 @@ Route::middleware([
     Route::get('/offer', [OfferController::class, 'show'])->name('offer');
     Route::post('/offer', [OfferController::class, 'store'])->name('store_offer');
 
+    Route::get('/contactform', [ContactController::class, 'show'])->name('contactform');
+    Route::post('/contactform', [ContactController::class, 'store'])->name('storecontactform');    
+
     // Route::get('/buildings', [BuildingsController::class, 'show'])->name('buildings');
     // Route::get('/buildings/delete/{id}', [BuildingsController::class, 'delete']);
     // Route::get('/buildings/edit/{id}', [BuildingsController::class, 'edit']);

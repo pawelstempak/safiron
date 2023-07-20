@@ -23,11 +23,11 @@
                     </x-nav-link>
                 </div>
 
-                {{-- <div class="ml-8 rounded-md inline-flex items-center">
-                    <x-nav-link href="{{ route('contacts') }}" :active="request()->routeIs('contacts')">
+                <div class="ml-8 rounded-md inline-flex items-center">
+                    <x-nav-link href="{{ route('contactform') }}" :active="request()->routeIs('contactform')">
                         Kontakt
                     </x-nav-link>
-                </div> --}}            
+                </div>          
 
             </div>
 

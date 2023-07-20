@@ -6,9 +6,24 @@ use Illuminate\Http\RedirectResponse;
 use App\Http\Requests\PostRequest;
 use App\Mail\ContactForm;
 use Illuminate\Support\Facades\Mail;
+use App\Models\Contact;
 
 class ContactController extends Controller
 {
+    public function show()
+    {
+        $contact = Contact::find(1);
+
+        return view('contactform', [
+            'siedziba' => $contact->siedziba,
+            'telefon' => $contact->telefon,
+            'email' => $contact->email,
+        ]);
+    }
+    public function store()
+    {
+        
+    }
     public function send(PostRequest $request):RedirectResponse
     {
         $validated = $request->validated();

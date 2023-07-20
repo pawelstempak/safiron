@@ -23,5 +23,11 @@ class DatabaseSeeder extends Seeder
         DB::table('offers')->insert([
             'text1' => ''
         ]);
+
+        DB::table('contacts')->insert([
+            'siedziba' => '', 
+            'telefon' => '', 
+            'email' => '', 
+        ]);        
     }
 }
