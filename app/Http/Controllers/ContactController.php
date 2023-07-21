@@ -7,24 +7,40 @@ use App\Http\Requests\PostRequest;
 use App\Mail\ContactForm;
 use Illuminate\Support\Facades\Mail;
 use App\Models\Contact;
+use Illuminate\Http\Request;
 
 class ContactController extends Controller
 {
-    public function show()
+    public function show(): object
+    {
+        $contact = Contact::find(1);
+
+        return view('frontend.contact', [
+            'contact' => $contact
+        ]);
+    }
+
+    public function showform(): object
     {
         $contact = Contact::find(1);
 
         return view('contactform', [
-            'siedziba' => $contact->siedziba,
-            'telefon' => $contact->telefon,
-            'email' => $contact->email,
+            'contact' => $contact
         ]);
     }
-    public function store()
+
+    public function store(Request $request): RedirectResponse
     {
-        
+        $contact = Contact::find(1);
+        $contact->siedziba = $request['siedziba'];
+        $contact->telefon = $request['telefon'];
+        $contact->email = $request['email'];
+        $contact->save();
+
+        return redirect('contactform');
     }
-    public function send(PostRequest $request):RedirectResponse
+
+    public function send(PostRequest $request): RedirectResponse
     {
         $validated = $request->validated();
 

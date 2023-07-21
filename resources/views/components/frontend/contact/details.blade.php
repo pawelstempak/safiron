@@ -13,7 +13,7 @@
     <div class="w-full">
         <h4 class="text-dark mb-1 text-xl font-bold">Nasza siedziba</h4>
         <p class="text-slate-600 text-base">
-            37-700 Przemyśl
+            {{ $contact->siedziba }}
         </p>
     </div>
 </div>
@@ -27,7 +27,7 @@
     </div>
     <div class="w-full">
         <h4 class="text-dark mb-1 text-xl font-bold">Numer telefonu</h4>
-        <a href="tel:+48 794 375 965" class="text-slate-600 text-base underline hover:text-secondary">+48 794 375 965</a>
+        <a href="tel:{{ $contact->telefon }}" class="text-slate-600 text-base underline hover:text-secondary">{{ $contact->telefon }}</a>
     </div>
 </div>
 <div class="mb-8 flex w-full max-w-[370px]">
@@ -38,6 +38,6 @@
     </div>
     <div class="w-full">
         <h4 class="text-dark mb-1 text-xl font-bold">Adres email</h4>
-        <a href="mail:timmspawtech@gmail.com" class="text-slate-600 text-base underline hover:text-secondary">timmspawtech@gmail.com</a>
+        <a href="mail:{{ $contact->email }}" class="text-slate-600 text-base underline hover:text-secondary">{{ $contact->email }}</a>
     </div>
 </div>
