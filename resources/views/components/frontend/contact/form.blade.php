@@ -1,6 +1,6 @@
 <div class="mb-12 lg:mb-0">
     @if(Route::currentRouteName()=="sendcontact")
-    Wysłano
+    Wiadomość została wysłana.
     @endif
 
     <h2 class="text-primary font-bold pl-3 py-2 mb-6 font-mono text-[24px] sm:text-[28px] lg:text-[30px] bg-transparent">

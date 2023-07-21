@@ -13,12 +13,16 @@ class ContactForm extends Mailable
 {
     use Queueable, SerializesModels;
 
+    private string $sender_email;
+    private string $sender_name;
+
     /**
      * Create a new message instance.
      */
     public function __construct(public string $name, public string $email, public string $phone, public string $content)
     {
-        //
+        $this->sender_email = $email;
+        $this->sender_name = $name;
     }
 
     /**
@@ -27,8 +31,8 @@ class ContactForm extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            from: new Address(env('MAIL_FROM_ADDRESS'), 'Formularz kontaktowy'),
-            subject: 'Formularz kontaktowy',
+            from: new Address($this->sender_email, $this->sender_name),
+            subject: 'Formularz kontaktowy Timmspawtech.pl',
         );
     }
 

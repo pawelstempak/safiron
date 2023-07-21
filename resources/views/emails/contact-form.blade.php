@@ -1,5 +1,5 @@
-Pytanie z formularza kontaktowego
-Imię: {{ $name }}<br>
-Adres E-mail: {{ $email }}<br>
-Telefon: {{ $phone }}<br>
-Treść pytania: {{ $content }}<br>
+<h2>Pytanie z formularza kontaktowego</h2><br>
+<b>Imię: {{ $name }}</b><br>
+<b>Adres E-mail: {{ $email }}</b><br>
+<b>Telefon: {{ $phone }}</b><br>
+<b>Treść pytania: {{ $content }}</b><br>

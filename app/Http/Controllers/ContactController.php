@@ -40,12 +40,15 @@ class ContactController extends Controller
         return redirect('contactform');
     }
 
-    public function send(PostRequest $request): RedirectResponse
+    public function send(PostRequest $request)
     {
         $validated = $request->validated();
 
         Mail::to(env('MAIL_CONTACT_FORM_EMAIL_ADDRESS'))->send(new ContactForm($validated['name'], $validated['email'], $validated['phone'], $validated['content']));
 
-        return redirect('/contact');
+        $contact = Contact::find(1);
+        return view('frontend.contact', [
+            'contact' => $contact
+        ]);
     }
 }
