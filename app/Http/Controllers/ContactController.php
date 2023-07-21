@@ -16,7 +16,8 @@ class ContactController extends Controller
         $contact = Contact::find(1);
 
         return view('frontend.contact', [
-            'contact' => $contact
+            'contact' => $contact,
+            'phone' => $this->getPhone()
         ]);
     }
 

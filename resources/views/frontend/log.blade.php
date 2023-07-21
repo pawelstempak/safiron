@@ -1,6 +1,6 @@
 <x-guest-layout>
     <section class="bg-slate-200">
-        <x-frontend.navbar />
+        <x-frontend.navbar :$phone/>
 
         <section class="pt-10 pb-10 lg:pt-20 lg:pb-20">
             <div class="md:container mx-auto">
@@ -37,6 +37,6 @@
             </div>
         </section>
 
-        <x-frontend.footer />
+        <x-frontend.footer :$phone/>
     </section>
 </x-guest-layout>

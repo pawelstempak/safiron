@@ -15,7 +15,8 @@ class LogController extends Controller
             ->get();
 
         return view('frontend.log', [
-            'loglist' => $loglist
+            'loglist' => $loglist,
+            'phone' => $this->getPhone()
         ]);
     }
 

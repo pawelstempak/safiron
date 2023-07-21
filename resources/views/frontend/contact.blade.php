@@ -1,6 +1,6 @@
 <x-guest-layout>
         <div class="bg-slate-200">
-                <x-frontend.navbar />
+                <x-frontend.navbar :$phone />
                 <section class="relative overflow-hidden pb-16 pt-12">
                         <div class="px-5 sm:px-10 lg:container mx-auto">
                                 <div class="xl:mx-20 flex flex-wrap lg:justify-between">
@@ -14,5 +14,5 @@
                         </div>
                 </section>
         </div>
-        <x-frontend.footer />
+        <x-frontend.footer :$phone />
 </x-guest-layout>

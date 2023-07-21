@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Models\Offer;
 
 class HomeController extends Controller
@@ -12,7 +11,8 @@ class HomeController extends Controller
         $offer = Offer::find(1);
 
         return view('frontend.home', [
-            'offer' => $offer
+            'offer' => $offer,
+            'phone' => $this->getPhone()
         ]);
     }
 }
