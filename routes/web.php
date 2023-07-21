@@ -26,6 +26,8 @@ Route::get('/log/{id}', [LogController::class, 'showitem'])->name('showitem');
 Route::get('/contact', [ContactController::class, 'show'])->name('contact');
 Route::post('/contact', [ContactController::class, 'send'])->name('sendcontact');
 
+Route::redirect('/admin', '/login');
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
