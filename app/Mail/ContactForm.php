@@ -27,7 +27,7 @@ class ContactForm extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            from: new Address('timmspawtech@gmail.com', 'Formularz kontaktowy'),            
+            from: new Address(env('MAIL_FROM_ADDRESS'), 'Formularz kontaktowy'),
             subject: 'Formularz kontaktowy',
         );
     }
