@@ -2,7 +2,7 @@
       <header class="flex w-full items-center">
         <div class="mx-auto bg-white w-full shadow-xl">
           <div class="bg-primary text-white text-center p-2 shadow-xl">
-            Metaloplastyka, bramy, ogrodzenia, okucia metalowe, elementy ozdobne z metalu <span class="xs:inline-block sm:block md:inline-block"><a href="tel:{{ $phone->telefon }}" class="ml-5 border bg-secondary hover:text-white hover:bg-secondary/75 border-secondary hover:border-white rounded text-primary py-1 px-3">{{ $phone->telefon }}</a></span>
+            Metaloplastyka, bramy, ogrodzenia, okucia metalowe, elementy ozdobne z metalu <span class="xs:inline-block sm:block md:inline-block mt-1 md:mt-0"><a href="tel:{{ $phone->telefon }}" class="ml-2 border bg-secondary hover:text-white hover:bg-secondary/75 border-secondary hover:border-white rounded text-primary py-1 px-3">{{ $phone->telefon }}</a></span>
           </div>
           <div class="sm:container xs:px-5 mx-auto">
             <div class="relative -mx-4 flex items-center justify-between">
