@@ -21,9 +21,6 @@
                                         {{$log->name}}
                                     </a>
                                 </h3>
-                                <p class="text-body-color text-base mb-2">
-                                    {{ Str::limit($log->description),40,'(...)' }}
-                                </p>
                                 <div class="text-right">
                                     <a href="/log/{{$log->blogs_id}}" class="cursor-pointer shadow-lg bg-secondary hover:bg-secondary/75 rounded py-2 px-4 text-xs font-semibold text-white ">
                                         zobacz galerię
