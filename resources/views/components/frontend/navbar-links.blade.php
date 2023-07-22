@@ -1,4 +1,4 @@
-              <div x-data="{ navbarOpen: false }">
+              <div x-data="{ navbarOpen: false }" class="my-10 xl:my-0">
                 <button @click="navbarOpen = !navbarOpen" :class="navbarOpen && 'navbarTogglerActive' " id="navbarToggler" class="ring-primary absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] focus:ring-2 xl:hidden">
                   <span class="bg-primary relative my-[6px] block h-[2px] w-[30px]"></span>
                   <span class="bg-primary relative my-[6px] block h-[2px] w-[30px]"></span>

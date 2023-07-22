@@ -5,9 +5,9 @@
         <section class="pt-10 pb-10 lg:pt-20 lg:pb-20 px-5">
             <div class="md:container mx-auto">
             <h1 class="py-3 text-primary block text-6xl font-exo">Galeria</h1>     
-                <p class="py-3 px-10 mb-1 block text-3xl text-secondary mx-auto">#{{$logitem->name}}</p>   
+                <p class="py-3 px-2 sm:px-10 mb-1 block text-3xl text-secondary mx-auto">#{{$logitem->name}}</p>   
                 @if($logitem->description) 
-                <p class="text-body-color text-base pl-10 pb-5">
+                <p class="text-body-color text-base pl-2 sm:pl-10 pb-5">
                     {{ $logitem->description }}
                 </p>       
                 @endif
