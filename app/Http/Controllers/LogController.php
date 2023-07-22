@@ -29,6 +29,7 @@ class LogController extends Controller
         return view('frontend.logitem', [
             'logitem' => $logitem,
             'logitemlist' => $logitemlist,
+            'phone' => $this->getPhone()
         ]);
     }    
 }
