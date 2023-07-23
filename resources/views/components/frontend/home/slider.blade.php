@@ -11,10 +11,11 @@
         <!--First item-->
         <div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-active data-te-carousel-item style="backface-visibility: hidden">
             <img src="images/navbar2.jpg" class="hidden lg:block w-full" alt="..." />
-            <img src="images/navbar2sm.jpg" class="block lg:hidden w-full" alt="..." />
-            <div class="absolute inset-x-[15%] bottom-5 xl:bottom-16 py-5 text-left text-white">
-                <h5 class="bg-secondary/75 px-5 py-3 text-white text-xl sm:text-3xl md:text-4xl font-mono xl:w-2/3">Bezpieczeństwo i wygoda</h5>
-                <p class="text-white text-lg sm:text-xl md:text-2xl px-5 py-3 bg-primary/75 mt-2 sm:mt-8 md:mt-10 lg:mt-7 font-mono xl:w-2/3">
+            <img src="images/navbar2sm.jpg" class="hidden md:block lg:hidden w-full" alt="..." />
+            <img src="images/navbar2xs.jpg" class="block md:hidden w-full" alt="..." />
+            <div class="absolute inset-x-[15%] bottom-10 lg:bottom-5 xl:bottom-10 2xl:bottom-16 py-5 text-left text-white">
+                <h5 class="bg-secondary/75 text-white px-5 py-3 text-2xl sm:text-3xl md:text-4xl font-mono xl:w-2/3">Bezpieczeństwo i wygoda</h5>
+                <p class="text-white bg-primary/75 text-lg sm:text-xl md:text-2xl px-5 py-3  mt-5 sm:mt-8 md:mt-10 lg:mt-7 font-mono xl:w-2/3">
                     Balustrady schodowe, balkonowe czy tarasowe w nowoczesnym stylu.
                 </p>
             </div>
@@ -23,9 +24,9 @@
         <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item style="backface-visibility: hidden">
             <img src="images/navbar1.jpg" class="hidden lg:block w-full" alt="..." />
             <img src="images/navbar1sm.jpg" class="block lg:hidden w-full" alt="..." />
-            <div class="absolute inset-x-[15%] bottom-5 xl:bottom-16 py-5 text-left text-white">
-                <h5 class="bg-primary/75 px-5 py-3 text-white text-xl sm:text-3xl md:text-4xl font-mono xl:w-2/3">Elegancja, styl i nowoczesność</h5>
-                <p class="text-white text-lg sm:text-xl md:text-2xl px-5 py-3 bg-dark/75 mt-2 sm:mt-8 md:mt-10 lg:mt-7 font-mono xl:w-2/3">
+            <div class="absolute inset-x-[15%] bottom-10 lg:bottom-5 xl:bottom-10 2xl:bottom-16 py-5 text-left text-white">
+                <h5 class="bg-primary/75 px-5 py-3 text-white text-2xl sm:text-3xl md:text-4xl font-mono xl:w-2/3">Elegancja, styl i nowoczesność</h5>
+                <p class="text-white text-lg sm:text-xl md:text-2xl px-5 py-3 bg-dark/75 mt-5 sm:mt-8 md:mt-10 lg:mt-7 font-mono xl:w-2/3">
                     Nowoczesnne schody w twoim domu!
                 </p>
             </div>
@@ -34,9 +35,9 @@
         <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item style="backface-visibility: hidden">
             <img src="images/navbar3.jpg" class="hidden lg:block w-full" alt="..." />
             <img src="images/navbar3sm.jpg" class="block lg:hidden w-full" alt="..." />
-            <div class="absolute inset-x-[15%] bottom-5 xl:bottom-16 py-5 text-left text-white">
-                <h5 class="bg-[#4d2403]/75 px-5 py-3 text-white text-xl sm:text-3xl md:text-4xl font-mono xl:w-2/3">Eleganckie i twałe konstrukcje mebli</h5>
-                <p class="text-white text-lg sm:text-xl md:text-2xl px-5 py-3 bg-[#683d1a]/75 mt-2 sm:mt-8 md:mt-10 lg:mt-7 font-mono xl:w-2/3">
+            <div class="absolute inset-x-[15%] bottom-10 lg:bottom-5 xl:bottom-10 2xl:bottom-16 py-5 text-left text-white">
+                <h5 class="bg-[#4d2403]/75 px-5 py-3 text-white text-2xl sm:text-3xl md:text-4xl font-mono xl:w-2/3">Eleganckie i twałe konstrukcje mebli</h5>
+                <p class="text-white text-lg sm:text-xl md:text-2xl px-5 py-3 bg-[#683d1a]/75 mt-5 sm:mt-8 md:mt-10 lg:mt-7 font-mono xl:w-2/3">
                     Ponadczasowe połączenie drewna z metalem
                 </p>
             </div>
