@@ -1,5 +1,5 @@
-<h2 class="text-primary font-bold pl-3 py-2 mb-6 font-mono text-[24px] sm:text-[28px] lg:text-[30px] bg-transparent">
-    <span class="text-secondary font-bold">#</span> Skontaktuj się z nami
+<h2 class="text-primary pl-3 py-2 mb-6 text-[24px] sm:text-[28px] lg:text-[30px] bg-transparent">
+    <span class="text-secondary">#</span> Skontaktuj się z nami
 </h2>
 <p class="text-body-color mb-9 text-base leading-relaxed">
 
