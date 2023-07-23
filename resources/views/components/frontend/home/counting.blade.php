@@ -3,8 +3,8 @@
         <div class="md:flex md:justify-between w-full mt-10 md:mt-0">
             <div class="mx-auto w-full text-center">
                 <div class="mb-5 py-6 md:mr-10 lg:mr-20 bg-primary md:py-[48px] xl:py-12">
-                    <span class="text-4xl md:text-2xl lg:text-6xl font-exo text-white" x-text="apartmentsValue"></span><br />
-                    <span class="text-2xl md:text-xl lg:text-2xl font-exo text-lightSecondary">lat doświadczenia</span>
+                    <span class="text-4xl md:text-2xl lg:text-6xl font-exo text-white">Lata</span><br />
+                    <span class="text-2xl md:text-xl lg:text-2xl font-exo text-lightSecondary">doświadczenia</span>
                 </div>
             </div>
             <div class="mx-auto w-full text-center">
